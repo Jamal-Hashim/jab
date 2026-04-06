@@ -515,6 +515,26 @@ main .main {
     border-radius: 10px;
 }
 
+.project-sec .view-all{
+    text-align: center;
+    margin-top: 30px;
+}
+.project-sec .view-all a {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.project-sec .view-all a:hover {
+    background-color: #0056d6;
+    transform: translateY(-3px);
+}
+
 .project-sec .project-content h1 {
     font-size: 2.5rem;
     color: #333;
@@ -1340,5 +1360,4 @@ main .main {
     .services-header h1 {
         font-size: 2.4rem;
     }
-
 }

@@ -62,7 +62,7 @@ It can be used as a **template for software companies, startups, or IT agencies*
 
 Visit the live website:
 
-🌐 https://jamal-hashim.github.io/school/
+🌐 https://jamal-hashim.github.io/jab/
 
 ---
 

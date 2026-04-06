@@ -7,6 +7,8 @@
   <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
   <title>JAB SOFT</title>
   <link rel="stylesheet" href="style.css">
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,6 +35,7 @@
           <li class="current"><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="service.html">Services</a></li>
+          <li><a href="project.html">Projects</a></li>
           <li><a href="contact.html" class="active">Contact</a></li>
         </ul>
       </nav>
@@ -42,7 +45,7 @@
 
   <section class="contact-wrapper">
 
-    <div class="contact-header">
+    <div class="contact-header" data-aos="fade-down">
       <h1>Contact <span>JAB SOFT</span></h1>
       <p>Let’s work together to build something amazing! Send your message and we’ll get back within 24 hours.</p>
     </div>
@@ -50,7 +53,7 @@
     <div class="contact-box">
 
       <!-- LEFT SIDE -->
-      <div class="contact-left">
+      <div class="contact-left" data-aos="fade-right" data-aos-delay="200">
         <h2>Get in Touch</h2>
 
         <div class="info">
@@ -75,7 +78,7 @@
       </div>
 
       <!-- RIGHT FORM -->
-      <div class="contact-right">
+      <div class="contact-right" data-aos="fade-left" data-aos-delay="400">
         <form action="#" method="POST">
           <div class="input-field">
             <input type="text" required>
@@ -124,6 +127,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="service.html">Services</a></li>
+          <li><a href="project.html">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -142,6 +146,15 @@
 
 
   <script src="index.js"></script>
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
 </body>
 
 </html>

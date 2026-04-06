@@ -57,10 +57,23 @@ It can be used as a **template for software companies, startups, or IT agencies*
 
 ---
 
+
+## 🚀 Live Demo
+
+Visit the live website:
+
+🌐 https://jamal-hashim.github.io/school/
+
+---
+
+🌐 Portfolio: https://jamal-hashim.github.io/jh-portfolio/  
+📧 Email: jamalhashim9151@gmail.com
+
 ## 👨‍💻 Author
 
 **Jamal Hashim**
 
 ---
+
 
 ⭐ If you like this project, please **give it a star on GitHub!**
